@@ -1,0 +1,428 @@
+id,date of onset,onset,regions,datemin,datemax,date of confirm,Source of infection,type,country,Transmission type,related,cluster,Age group ,sex,COVID-19 vaccination,Date of vaccination(Two doses),id_infector,date of onset_infector,date of confirm_infector
+#1,2021-11-24,chill,incheon,2021-11-14,2021-11-23,2021-11-25,11.24  Arrivals from Nigeria(ET672),abroad,Nigeria,Imported,Church related,,40s,M ,2,2021-10-28,,,
+#2,2021-11-19,sore throat,incheon,2021-11-14,2021-11-23,2021-11-25,11.24  Arrivals from Nigeria(ET672),abroad,Nigeria,Imported,Church related,,40s,F,2,2021-10-28,,,
+#3,,"Respiratory symptoms, myalgia",incheon,,,2021-11-30,#1(family),local,,Household,Church related,,10s,M,0,,#1,2021-11-24,2021-11-25
+#4,2021-11-28,chill,incheon,,2021-11-24,2021-11-29,contact with #1,local,,Social,Church related,,30s,M,0,,#1,2021-11-24,2021-11-25
+#5,,,incheon,,,2021-11-30,#4(family),local,,Household,Church related,,30s,F,0,,#4,2021-11-28,2021-11-29
+#6,,,incheon,,,2021-11-30,#4(family),local,,Household,Church related,,60s,F,0,,#4,2021-11-28,2021-11-29
+#7,,,incheon,,2021-11-27,2021-11-30,contact with #4,local,,Social,Church related,,30s,M,0,,#4,2021-11-28,2021-11-29
+#8,,,incheon,,2021-11-28,2021-12-01,contact with #7,local,,Social,Church related,,30s,F,1,,#7,,2021-11-30
+#9,,,incheon,,2021-11-28,2021-12-01,contact with #7,local,,Social,Church related,,30s,F,0,,#7,,2021-11-30
+#10,,,incheon,,2021-11-28,2021-12-01,contact with #4,local,,Social,Church related,,50s,F,0,,#4,2021-11-28,2021-11-29
+#11,,,incheon,,2021-11-28,2021-12-01,#7(family),local,,Household,Church related,,50s,M,1,,#7,,2021-11-30
+#12,,,incheon,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,20s,F,0,,,,
+#13,,,incheon,,,2021-12-02,#12(family),local,,Household,Church related,,30s,M,0,,#12,,2021-12-03
+#14,,,seoul,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,20s,F,0,,,,
+#15,,,seoul,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,10s,M,0,,,,
+#16,,,seoul,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,20s,F,2,2021-10-25,,,
+#17,,,incheon,,2021-11-28,2021-12-02,Church,local,,Church,Church related,Church,30s,F,0,,,,
+#18,,,incheon,,2021-11-28,2021-12-02,Church,local,,Church,Church related,Church,30s,F,0,,,,
+#19,,,incheon,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,50s,F,2,2021-09-23,,,
+#20,,,incheon,,,2021-12-03,contact with #19,local,,Social,Church related,,50s,F,2,2021-09-24,#19,,2021-12-03
+#21,,,incheon,,,2021-12-03,#19(family),local,,Household,Church related,,10s,M,0,,#19,,2021-12-03
+#22,,,incheon,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,40s,M,2,Unknown,,,
+#23,,,incheon,,,2021-12-03,contact with #6,local,,Social,Church related,,30s,F,0,,#6,,2021-11-30
+#24,2021-12-02,"sore throat, rhinorrhea",chungbuk,2021-11-28,2021-11-29,2021-12-04,Church,local,,Church,Church related,Church,70s,F,2,Unknown,,,
+#25,,,incheon,,2021-11-28,2021-12-01,Church,local,,Church,Church related,Church,40s,Unknown,2,Unknown,,,
+#26,2021-12-01,Fever,gyeonggi,,2021-11-28,2021-12-02,Church,local,,Church,Church related,Church,10s,Unknown,0,,,,
+#27,,,incheon,,2021-11-28,2021-12-03,Church,local,,Church,Church related,Church,20s,Unknown,2,Unknown,,,
+#28,,,incheon,,,2021-12-04,#17(family),local,,Household,Church related,,under 10,Unknown,0,,#17,,2021-12-02
+#29,,,incheon,,,2021-12-05,#23(family),local,,Household,Church related,,40s,Unknown,0,,#23,,2021-12-03
+#30,,,incheon,,,2021-12-05,contact with #19,local,,Social,Church related,,under 10,Unknown,0,,#19,,2021-12-03
+#31,,,gyeonggi,,,2021-12-02,contact with #27,local,,Social,Church related,,30s,Unknown,2,Unknown,#27,,2021-12-03
+#32,,,seoul,,,2021-12-02,contact with #7,local,,Social,Church related,,30s,Unknown,0,,#7,,2021-11-30
+#33,,,gyeonggi,,,2021-12-02,contact with #7,local,,Social,Church related,,30s,Unknown,2,Unknown,#7,,2021-11-30
+#34,,,incheon,,,2021-12-06,#12(family),local,,Household,Church related,,under 10,Unknown,0,,#12,,2021-12-03
+#35,,,incheon,,,2021-12-06,#17(family),local,,Household,Church related,,20s,Unknown,2,2021-10-27,#17,,2021-12-02
+#36,,,incheon,,2021-11-28,2021-12-06,Church,local,,Church,Church related,Church,30s,Unknown,0,,,,
+#37,,,seoul,,2021-11-28,2021-12-05,Church,local,,Church,Church related,Church,30s,Unknown,2,2021-10-18,,,
+#38,,,seoul,,,2021-12-05,contact with #14,local,,Social,Church related,,20s,Unknown,2,2021-10-29,#14,,2021-12-03
+#39,,,seoul,,2021-11-28,2021-12-05,Church,local,,Church,Church related,Church,20s,Unknown,0,,,,
+#40,,,incheon,,,2021-12-06,#18(family),local,,Household,Church related,,30s,Unknown,0,,#18,,2021-12-02
+#41,,,incheon,,,2021-12-06,contact with #47,local,,Social,Church related,,under 10,Unknown,0,,#47,,2021-12-06
+#42,,,incheon,,,2021-12-06,#7(family),local,,Household,Church related,,40s,Unknown,0,,#7,,2021-11-30
+#43,,,incheon,,2021-11-28,2021-12-06,Church,local,,Church,Church related,Church,20s,Unknown,2,2021-10-29,,,
+#44,,,incheon,,,2021-12-06,#25(family),local,,Household,Church related,,30s,Unknown,0,,#25,,2021-12-01
+#45,,,incheon,,,2021-12-06,#25(family),local,,Household,Church related,,60s,Unknown,2,2021-08-30,#25,,2021-12-01
+#46,,,incheon,,,2021-12-06,#25(family),local,,Household,Church related,,under 10,Unknown,0,,#25,,2021-12-01
+#47,,,incheon,,2021-11-28,2021-12-06,Church,local,,Church,Church related,Church,50s,Unknown,2,2021-09-23,,,
+#48,,,incheon,,2021-11-28,2021-12-06,Church,local,,Church,Church related,Church,60s,Unknown,2,2021-11-19,,,
+#49,,,incheon,,2021-11-28,2021-12-06,Church,local,,Church,Church related,Church,60s,Unknown,0,,,,
+#50,,,incheon,,2021-11-28,2021-12-07,#17(family),local,,Household,Church related,,30s,Unknown,2,Unknown,#17,,2021-12-02
+#51,,,incheon,,2021-11-28,2021-12-07,Church,local,,Church,Church related,Church,30s,Unknown,0,,,,
+#52,,,incheon,,2021-11-28,2021-12-07,Church,local,,Church,Church related,Church,under 10,Unknown,0,,,,
+#53,,,incheon,,,2021-12-07,#23(family),local,,Household,Church related,,10s,Unknown,0,,#23,,2021-12-03
+#54,,,incheon,,2021-11-28,2021-12-08,#42(family),local,,Household,Church related,,30s,Unknown,0,,#42,,2021-12-06
+#55,,,incheon,,2021-11-28,2021-12-08,#42(family),local,,Household,Church related,,under 10,Unknown,0,,#42,,2021-12-06
+#56,,,incheon,,2021-11-28,2021-12-07,Church,local,,Church,Church related,Church,30s,Unknown,2,Unknown,,,
+#57,,,incheon,,,2021-12-08,#49(family),local,,Household,Church related,,40s,Unknown,2,Unknown,#49,,2021-12-06
+#58,,,incheon,,,2021-12-08,#49(family),local,,Household,Church related,,40s,Unknown,0,,#49,,2021-12-06
+#59,,,incheon,,2021-11-28,2021-12-08,#9(family),local,,Household,Church related,,under 10,Unknown,0,,#9,,2021-12-01
+#60,,,seoul,,2021-11-28,2021-12-07,Church,local,,Church,Church related,Church,20s,Unknown,2,Unknown,,,
+#61,2021-12-04,,incheon,,,2021-12-08,#20(family),local,,Household,Church related,,60s,M,2,Unknown,#20,,2021-12-03
+#62,Asymptomatic,Asymptomatic,incheon,,,2021-12-08,#12(family),local,,Household,Church related,,20s,M,0,,#12,,2021-12-03
+#63,2021-12-08,,incheon,,,2021-12-08,contact with #41,local,,Social,Church related,,under 10,F,0,,#41,,2021-12-06
+#64,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-05,11.25 Arrivals from Iran,abroad,Iran,Imported,#64 related,,30s,Unknown,0,,,,
+#65,2021-12-04,Fever,jeonbuk,,,2021-12-06,contact with #67,local,,Social,#64 related,W_kindergarten,50s,Unknown,Unknown,,#67,2021-12-03,2021-12-06
+#66,2021-12-05,"sore throat,cough",jeonbuk,2021-11-26,2021-12-05,2021-12-06,#64(family),local,,Household,#64 related,,30s,Unknown,Unknown,,#64,,2021-12-05
+#67,2021-12-03,sore throat,jeonbuk,2021-11-26,2021-12-05,2021-12-06,#64(family),local,,Household,#64 related,,under 10,Unknown,Unknown,,#64,,2021-12-05
+#68,2021-12-06,"cough, sputum",jeonbuk,2021-11-26,2021-12-05,2021-12-06,#64(family),local,,Household,#64 related,,under 10,Unknown,Unknown,,#64,,2021-12-05
+#69,2021-12-04,"cough, sputum, sore throat,myalgia, headache",jeonbuk,,,2021-12-07,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,40s,Unknown,Unknown,,,,
+#70,2021-12-06,"sputum, sore throat, Fever, chill",jeonbuk,,,2021-12-07,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,30s,Unknown,Unknown,,,,
+#71,2021-12-05,slight fever,jeonbuk,,,2021-12-07,contact with #67,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#67,2021-12-03,2021-12-06
+#72,2021-12-04,Fever,jeonbuk,,,2021-12-07,contact with #67,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#67,2021-12-03,2021-12-06
+#73,2021-12-06,Fever,jeonbuk,,,2021-12-07,#72(family),local,,Household,#64 related,Family gathering,30s,Unknown,Unknown,,#72,2021-12-04,2021-12-07
+#74,2021-12-08,"sputum, Fever",jeonbuk,,,2021-12-08,#75(family),local,,Household,#64 related,W_kindergarten,20s,Unknown,Unknown,,#75,2021-12-06,2021-12-08
+#75,2021-12-06,sore throat,jeonbuk,,,2021-12-08,#65(family),local,,Household,#64 related,W_kindergarten,20s,Unknown,Unknown,,#65,2021-12-04,2021-12-06
+#76,2021-12-08,Fever,jeonbuk,,,2021-12-08,#75(family),local,,Household,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#75,2021-12-06,2021-12-08
+#77,2021-12-05,rhinorrhea,jeonbuk,,,2021-12-08,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,,,
+#78,2021-12-05,rhinorrhea,jeonbuk,,,2021-12-08,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,,,
+#79,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-08,#80(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#80,2021-12-06,2021-12-08
+#80,2021-12-06,"Fever, sore throat",jeonbuk,,,2021-12-08,contact with #65,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#65,2021-12-04,2021-12-06
+#81,2021-12-08,"Fever, sore throat",jeonbuk,,,2021-12-08,#83(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#83,2021-12-05,2021-12-08
+#82,2021-12-07,Fever,jeonbuk,,,2021-12-08,#83(family),local,,Household,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#83,2021-12-05,2021-12-08
+#83,2021-12-05,Fever,jeonbuk,,,2021-12-08,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,,,
+#84,2021-12-08,"sore throat, myalgia",jeonbuk,,,2021-12-08,#71(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#71,2021-12-05,2021-12-07
+#85,2021-12-09,"myalgia, rhinorrhea, Fever(38)",jeonbuk,,,2021-12-09,#74(family),local,,Household,#64 related,W_kindergarten,40s,Unknown,Unknown,,#74,2021-12-08,2021-12-08
+#86,2021-12-08,"headache, sputum, myalgia",jeonbuk,,,2021-12-09,#74(family),local,,Household,#64 related,W_kindergarten,20s,Unknown,Unknown,,#74,2021-12-08,2021-12-08
+#87,,,jeonbuk,,,2021-12-10,#70(family),local,,Household,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#70,2021-12-06,2021-12-07
+#88,,,jeonbuk,,,2021-12-10,#80(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#80,2021-12-06,2021-12-08
+#89,,,jeonbuk,,,2021-12-10,Wanju-kindergarten,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,,,
+#90,,,jeonbuk,,,2021-12-10,Confirmed family (related to Wanju-kindergarten),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,,,
+#91,,,jeonbuk,,,2021-12-10,Confirmed family (related to Wanju-kindergarten),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,,,
+#92,2021-12-11,"Fever, chill",jeonbuk,,,2021-12-12,contact with #89,local,,Social,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#89,,2021-12-10
+#93,2021-12-10,cough,jeonbuk,,,2021-12-12,#91(family),local,,Household,#64 related,,70s,Unknown,Unknown,,#91,,2021-12-10
+#94,2021-12-12,Fever(38.7),jeonbuk,,,2021-12-12,#69(family),local,,Household,#64 related,W_kindergarten,under 10,Unknown,Unknown,,#69,2021-12-04,2021-12-07
+#95,2021-12-06,Fever,jeonnam,2021-12-04,2021-12-05,2021-12-08,#72(family),local,,Household,#64 related,Family gathering,under 10,Unknown,Unknown,,#72,2021-12-04,2021-12-07
+#96,,cough,jeonnam,,2021-12-06,2021-12-08,contact with #95,local,,Social,#64 related,H_kindergarten,30s,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#97,,,jeonnam,2021-12-04,2021-12-05,2021-12-09,#72(family),local,,Household,#64 related,Family gathering,Unknown,Unknown,Unknown,,#72,2021-12-04,2021-12-07
+#98,,,jeonnam,,2021-12-06,2021-12-09,contact with #95,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#99,,,jeonnam,,2021-12-06,2021-12-09,contact with #95,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#100,,,jeonnam,,,2021-12-09,contact with #95,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#101,,,jeonnam,,2021-12-06,2021-12-09,contact with #95,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#102,Asymptomatic,Asymptomatic,jeonnam,,2021-12-06,2021-12-10,contact with #95,local,,Social,#64 related,H_kindergarten,under 10,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#103,Asymptomatic,Asymptomatic,jeonnam,,2021-12-06,2021-12-10,contact with #95,local,,Social,#64 related,H_kindergarten,under 10,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#104,,,jeonnam,,,2021-12-10,contact with #97,local,,Social,#64 related,,Unknown,Unknown,Unknown,,#97,,2021-12-09
+#105,,,jeonnam,,,2021-12-11,contact with #97,local,,Social,#64 related,,Unknown,Unknown,Unknown,,#97,,2021-12-09
+#106,,,jeonnam,,2021-12-06,2021-12-11,contact with #95,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#107,,,jeonnam,,,2021-12-12,contact with #100,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#100,,2021-12-09
+#108,,,jeonnam,,,2021-12-12,contact with #100,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#100,,2021-12-09
+#109,,,jeonnam,,,2021-12-12,contact with #100,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#100,,2021-12-09
+#110,,,jeonnam,2021-12-04,2021-12-06,2021-12-12,#95(family),local,,Household,#64 related,Family gathering,Unknown,Unknown,Unknown,,#95,2021-12-06,2021-12-08
+#111,,,jeonnam,,,2021-12-12,contact with #97,local,,Social,#64 related,,Unknown,Unknown,Unknown,,#97,,2021-12-09
+#112,,,jeonnam,,,2021-12-12,contact with #98,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#98,,2021-12-09
+#113,,,incheon,,,2021-12-11,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#114,,,incheon,,2021-11-28,2021-12-12,Church,local,,Church,Church related,Church,Unknown,Unknown,Unknown,,,,
+#115,,,incheon,,2021-11-28,2021-12-12,Church,local,,Church,Church related,Church,Unknown,Unknown,Unknown,,,,
+#116,,,incheon,,,2021-12-12,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#117,,,seoul,2021-12-04,2021-12-05,2021-12-12,family gathering in seoul,local,,Household,#64 related,Family gathering,Unknown,Unknown,Unknown,,,,
+#118,,,incheon,,,2021-12-13,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#119,,,incheon,,,2021-12-13,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#120,,,jeonnam,,,2021-12-13,contact with #111,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#111,,2021-12-12
+#121,,,jeonnam,,,2021-12-13,contact with #106,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#106,,2021-12-11
+#122,,,jeonnam,,,2021-12-14,contact with #100,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#100,,2021-12-09
+#123,,,jeonnam,,,2021-12-14,contact with #106,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#106,,2021-12-11
+#124,,,incheon,,,2021-12-14,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#125,,,incheon,,2021-11-28,2021-12-14,Church,local,,Church,Church related,Church,Unknown,Unknown,Unknown,,,,
+#126,,,jeonnam,,,2021-12-15,contact with #106,local,,Social,#64 related,H_kindergarten,Unknown,Unknown,Unknown,,#106,,2021-12-11
+#127,,,jeonnam,,,2021-12-15,contact with #104,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#104,,2021-12-10
+#128,,,gyeongnam,,,2021-12-07,12.3 Arrivals from USA,abroad,USA,Imported,etc,,Unknown,Unknown,Unknown,,,,
+#129,,,incheon,,,2021-12-15,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#130,,,incheon,,,2021-12-15,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#131,,,gyeongnam,,,2021-12-15,#128(family),local,,Household,etc,,Unknown,Unknown,Unknown,,#128,,2021-12-07
+#132,2021-12-15,"rhinorrhea, sore throat, headache, Fever",jeonbuk,,,2021-12-15,#70(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#70,2021-12-06,2021-12-07
+#133,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-15,#64(family),local,,Household,#64 related,W_kindergarten,30s,Unknown,Unknown,,#64,,2021-12-05
+#134,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-16,#70(family),local,,Household,#64 related,W_kindergarten,10s,Unknown,Unknown,,#70,2021-12-06,2021-12-07
+#135,,,incheon,,,2021-12-17,related to Incheon Church (contact with friend),local,,Social,Church related,,Unknown,Unknown,Unknown,,,,
+#136,,,gwangju,,,2021-12-16,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#137,,,jeonnam,,,2021-12-17,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#138,,,jeonnam,,2021-12-10,2021-12-18,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#139,,,gwangju,,,2021-12-18,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#140,,,gwangju,,,2021-12-18,contact with #139,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#139,,2021-12-18
+#141,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#142,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#143,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#144,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#145,,,gwangju,,2021-12-11,2021-12-19,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#146,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#147,,,gwangju,,,2021-12-19,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#148,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#149,,,gwangju,,,2021-12-19,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#150,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#151,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#152,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#153,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#154,,,gwangju,,,2021-12-19,contact with #138,local,,Social,etc,,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#155,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#156,2021-12-14,sore throat,jeonbuk,,,2021-12-16,related to Iksan kindergarten,local,,Social,iksan related,,30s,Unknown,2,Unknown,,,
+#157,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-17,Confirmed family (related to Iksan kindergarten),local,,Household,iksan related,,under 10,Unknown,0,,,,
+#158,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-17,Confirmed family (related to Iksan kindergarten),local,,Household,iksan related,,40s,Unknown,2,Unknown,,,
+#159,2021-12-13,sore throat,jeonbuk,,,2021-12-17,contact with #157,local,,Social,iksan related,,under 10,Unknown,0,,#157,,2021-12-17
+#160,2021-12-15,sore throat,jeonbuk,,,2021-12-17,#159(family),local,,Household,iksan related,,30s,Unknown,2,Unknown,#159,2021-12-13,2021-12-17
+#161,2021-12-17,"Fever, cough, sore throat, dyspnea",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#162,2021-12-16,"Fever, cough, sore throat, dyspnea",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#163,2021-12-14,"Fever, cough, sputum",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#164,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#165,2021-12-17,"cough, rhinorrhea",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#166,2021-12-16,"Fever, vomiting",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#167,2021-12-18,"Fever, cough, sputum",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#168,2021-12-18,"Fever, cough, sputum",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#169,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#170,2021-12-18,cough,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#171,2021-12-15,"Fever, cough",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#172,2021-12-18,cough,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#173,2021-12-15,"cough, Fever",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#174,2021-12-18,"Fever, cough, sputum",jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#175,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#176,2021-12-17,Fever,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#177,2021-12-16,cough,jeonbuk,,,2021-12-18,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#178,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-18,contact with #169,local,,Social,iksan related,,under 10,Unknown,0,,#169,,2021-12-18
+#179,2021-12-18,cough,jeonbuk,,,2021-12-19,#169(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#169,,2021-12-18
+#180,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-19,#169(family),local,,Household,iksan related,I_kindergarten,under 10,Unknown,2,Unknown,#169,,2021-12-18
+#181,2021-12-16,sore throat,jeonbuk,,,2021-12-19,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,,,
+#182,2021-12-18,Fever,jeonbuk,,,2021-12-19,contact with #156,local,,Social,iksan related,,under 10,Unknown,0,,#156,2021-12-14,2021-12-16
+#183,2021-12-17,cough,jeonbuk,,,2021-12-19,#177(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#177,2021-12-16,2021-12-18
+#184,2021-12-17,"Fever, cough, sputum",jeonbuk,,,2021-12-19,#172(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#172,2021-12-18,2021-12-18
+#185,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-19,#186(family),local,,Household,iksan related,,50s,Unknown,0,,#186,2021-12-18,2021-12-19
+#186,2021-12-18,"sore throat, cough",jeonbuk,,,2021-12-19,#166(family),local,,Household,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#166,2021-12-16,2021-12-18
+#187,2021-12-16,sore throat,jeonbuk,,,2021-12-19,contact with #174,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#174,2021-12-18,2021-12-18
+#188,2021-12-18,Fever,jeonbuk,,,2021-12-19,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#189,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-19,contact with #173,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#173,2021-12-15,2021-12-18
+#190,2021-12-17,"cough, chill",jeonbuk,,,2021-12-19,contact with #174,local,,Social,iksan related,I_kindergarten,50s,Unknown,2,Unknown,#174,2021-12-18,2021-12-18
+#191,2021-12-17,"chill, myalgia, sputum",jeonbuk,,,2021-12-19,#163(family),local,,Household,iksan related,I_kindergarten,60s,Unknown,2,Unknown,#163,2021-12-14,2021-12-18
+#192,2021-12-19,sore throat,jeonbuk,,,2021-12-19,#163(family),local,,Household,iksan related,I_kindergarten,60s,Unknown,2,Unknown,#163,2021-12-14,2021-12-18
+#193,2021-12-18,"sore throat, cough, sputum",jeonbuk,,,2021-12-19,#174(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,Unknown,,#174,2021-12-18,2021-12-18
+#194,2021-12-12,"bodyache, sore throat",jeonbuk,,,2021-12-19,#174(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,Unknown,,#174,2021-12-18,2021-12-18
+#195,2021-12-19,slight fever,jeonbuk,,,2021-12-19,#174(family),local,,Household,iksan related,I_kindergarten,under 10,Unknown,Unknown,,#174,2021-12-18,2021-12-18
+#196,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #172,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#172,2021-12-18,2021-12-18
+#197,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #177,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#177,2021-12-16,2021-12-18
+#198,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #177,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#177,2021-12-16,2021-12-18
+#199,2021-12-19,"sore throat, headache",jeonbuk,,,2021-12-20,contact with #190,local,,Social,iksan related,I_kindergarten,50s,Unknown,2,Unknown,#190,2021-12-17,2021-12-19
+#200,2021-12-20,cough,jeonbuk,,,2021-12-20,#201(family),local,,Household,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#201,2021-12-18,2021-12-20
+#201,2021-12-18,Fever,jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,,,
+#202,2021-12-15,"Fever, sore throat, cough, sputum",jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,20s,Unknown,Unknown,,,,
+#203,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#204,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#205,2021-12-15,cough,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#206,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#207,2021-12-17,"Fever, vomiting",jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#208,2021-12-18,"cough, slight fever",jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#209,,,gwangju,,,2021-12-19,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#210,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#211,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#212,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#213,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#214,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#215,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#216,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #89,local,,Social,#64 related,W_kindergarten,30s,Unknown,Unknown,,#89,,2021-12-10
+#217,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#218,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#219,,,gwangju,,,2021-12-20,public institution in Gwangju,local,,Social,#64 related,public institution,Unknown,Unknown,Unknown,,,,
+#220,,,gwangju,,,2021-12-20,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#221,,,gwangju,,,2021-12-20,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#222,,,gwangju,,,2021-12-20,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#223,,,gwangju,,,2021-12-21,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#224,,,gwangju,,,2021-12-21,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#225,,,gwangju,,,2021-12-21,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#226,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,40s,Unknown,Unknown,,,,
+#227,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#228,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,30s,Unknown,Unknown,,,,
+#229,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#230,2021-12-20,slight fever,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#231,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Buan kindergarten,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,,,
+#232,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,#204(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#204,,2021-12-20
+#233,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,#205(family),local,,Household,iksan related,B_kindergarten,40s,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#234,2021-12-15,diarrhea,jeonbuk,,,2021-12-20,related to Iksan kindergarten,local,,Social,iksan related,,60s,Unknown,0,,,,
+#235,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,,,
+#236,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,,,
+#237,2021-12-20,"cough, myalgia",jeonbuk,,,2021-12-20,contact with #166,local,,Social,iksan related,I_kindergarten,60s,Unknown,2,Unknown,#166,2021-12-16,2021-12-18
+#238,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,,,
+#239,2021-12-18,"chill, bodyache, Fever",jeonbuk,,,2021-12-20,contact with #157,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#157,,2021-12-17
+#240,2021-12-19,"cough, sputum",jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,,,
+#241,2021-12-20,sore throat,jeonbuk,,,2021-12-20,contact with #162,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#162,2021-12-16,2021-12-18
+#242,2021-12-19,"Fever, vomiting",jeonbuk,,,2021-12-20,contact with #162,local,,Social,iksan related,I_kindergarten,10s,Unknown,0,,#162,2021-12-16,2021-12-18
+#243,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #182,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#182,2021-12-18,2021-12-19
+#244,2021-12-19,sputum,jeonbuk,,,2021-12-20,contact with #182,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#182,2021-12-18,2021-12-19
+#245,2021-12-19,"headache, cough, Fever",jeonbuk,,,2021-12-20,contact with #182,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#182,2021-12-18,2021-12-19
+#246,2021-12-19,rhinorrhea,jeonbuk,,,2021-12-20,contact with #182,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#182,2021-12-18,2021-12-19
+#247,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,#246(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,0,,#246,2021-12-19,2021-12-20
+#248,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #181,local,,Social,iksan related,I_kindergarten,10s,Unknown,2,Unknown,#181,2021-12-16,2021-12-19
+#249,2021-12-18,Fever,jeonbuk,,,2021-12-20,Iksan kindergarten,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,,,
+#250,2021-12-17,cough,jeonbuk,,,2021-12-20,contact with #156,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#156,2021-12-14,2021-12-16
+#251,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #156,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#156,2021-12-14,2021-12-16
+#252,2021-12-20,"cough, myalgia",jeonbuk,,,2021-12-21,#182(family),local,,Household,iksan related,I_kindergarten,60s,Unknown,Unknown,,#182,2021-12-18,2021-12-19
+#253,2021-12-19,headache,jeonbuk,,,2021-12-21,#182(family),local,,Household,iksan related,I_kindergarten,60s,Unknown,Unknown,,#182,2021-12-18,2021-12-19
+#254,2021-12-18,"sore throat, cough",jeonbuk,,,2021-12-21,#161(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#161,2021-12-17,2021-12-18
+#255,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-21,contact with #234,local,,Social,iksan related,,60s,Unknown,2,Unknown,#234,2021-12-15,2021-12-20
+#256,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-21,#177(family),local,,Household,iksan related,I_kindergarten,60s,Unknown,2,Unknown,#177,2021-12-16,2021-12-18
+#257,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-21,#247(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#247,,2021-12-20
+#258,Asymptomatic,Asymptomatic,daegu,,,2021-12-15,12.13 Arrivals from USA,abroad,USA,Imported,etc,,40s,M,Unknown,,,,
+#259,,,daegu,,,2021-12-20,#258(family),local,,Household,etc,,Unknown,F,Unknown,,#258,,2021-12-15
+#260,,,daegu,,,2021-12-20,#258(family),local,,Household,etc,,Unknown,Unknown,Unknown,,#258,,2021-12-15
+#261,,,gwangju,,,2021-12-22,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#262,,,gwangju,,,2021-12-22,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#263,,,gwangju,,,2021-12-22,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#264,,,gwangju,,,2021-12-22,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#265,,,jeonnam,,,2021-12-22,contact with #153,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#153,,2021-12-19
+#266,,,jeonnam,,,2021-12-22,contact with #153,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#153,,2021-12-19
+#267,,,jeonnam,,,2021-12-23,contact with #145,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#145,,2021-12-19
+#268,,,gwangju,,,2021-12-23,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#269,,,gwangju,,,2021-12-23,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#270,,,gwangju,,,2021-12-23,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#271,,,gwangju,,,2021-12-23,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#272,,,gwangju,,,2021-12-23,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#273,,,gwangju,,,2021-12-18,Index patient of gangwon_do,local,,Unknown,etc,,Unknown,Unknown,Unknown,,,,
+#274,,,gangwon,,2021-12-14,2021-12-18,Confirmed family (related to #273),local,,Household,etc,,Unknown,Unknown,Unknown,,,,
+#275,,,gangwon,,2021-12-14,2021-12-18,contact with #273(friend),local,,Social,etc,,Unknown,Unknown,Unknown,,#273,,2021-12-18
+#276,,,gangwon,,2021-12-14,2021-12-18,#273(famaily),local,,Household,etc,,Unknown,Unknown,Unknown,,#273,,2021-12-18
+#277,2021-12-19,cough,jeonbuk,,,2021-12-20,#205(family),local,,Household,iksan related,,40s,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#278,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,#205(family),local,,Household,iksan related,,under 10,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#279,2021-12-20,Fever,jeonbuk,,,2021-12-20,contact with #205,local,,Social,iksan related,,under 10,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#280,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-20,contact with #205,local,,Social,iksan related,,under 10,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#281,2021-12-21,"slight fever, sore throat",jeonbuk,,,2021-12-22,#228(family),local,,Household,iksan related,,10s,Unknown,Unknown,,#228,,2021-12-20
+#282,2021-12-21,,jeonbuk,,,2021-12-22,contact with #202,local,,Social,iksan related,B_kindergarten,40s,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#283,2021-12-20,cough,jeonbuk,,,2021-12-22,contact with #181,local,,Social,iksan related,J_kindergarten,40s,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#284,2021-12-19,"sputum, slight fever",jeonbuk,,,2021-12-22,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#285,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#286,2021-12-18,sore throat,jeonbuk,,,2021-12-21,contact with #191,local,,Social,iksan related,I_kindergarten,70s,Unknown,2,Unknown,#191,2021-12-17,2021-12-19
+#287,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-21,contact with #238,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#238,,2021-12-20
+#288,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#289,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#290,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#291,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#292,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#293,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#294,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#295,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#296,2021-12-19,,jeonbuk,,,2021-12-22,contact with #202,local,,Social,iksan related,B_kindergarten,20s,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#297,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #231,local,,Social,iksan related,B_kindergarten,40s,Unknown,Unknown,,#231,,2021-12-20
+#298,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #231,local,,Social,iksan related,B_kindergarten,30s,Unknown,Unknown,,#231,,2021-12-20
+#299,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #204,local,,Social,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#204,,2021-12-20
+#300,2021-12-19,"cough, sputum, sore throat",jeonbuk,,,2021-12-23,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#301,2021-12-20,"Fever, sore throat, dyspnoea, sputum",jeonbuk,,,2021-12-22,contact with #175,local,,Social,iksan related,I_kindergarten,60s,Unknown,0,,#175,,2021-12-18
+#302,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #238,local,,Social,iksan related,I_kindergarten,under 10,Unknown,2,Unknown,#238,,2021-12-20
+#303,,,gwangju,,,2021-12-24,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#304,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#305,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#306,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#307,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#308,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#309,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#310,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#311,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#312,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#313,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#314,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#315,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#316,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-22,contact with #203,local,,Social,iksan related,B_kindergarten,40s,Unknown,Unknown,,#203,,2021-12-20
+#317,2021-12-25,"Fever, chill, headache",jeonbuk,,,2021-12-25,contact with #181,local,,Social,iksan related,J_kindergarten,20s,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#318,2021-12-21,cough,jeonbuk,,,2021-12-22,#201(family),local,,Household,iksan related,I_kindergarten,under 10,Unknown,0,,#201,2021-12-18,2021-12-20
+#319,2021-12-21,"cough, rhinorrhea",jeonbuk,,,2021-12-22,contact with #164,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#164,,2021-12-18
+#320,2021-12-22,sore throat,jeonbuk,,,2021-12-23,#191(family),local,,Household,iksan related,,50s,Unknown,2,Unknown,#191,2021-12-17,2021-12-19
+#321,2021-12-22,sore throat,jeonbuk,,,2021-12-23,contact with #243,local,,Social,iksan related,I_kindergarten,50s,Unknown,2,Unknown,#243,,2021-12-20
+#322,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-23,contact with #170,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#170,2021-12-18,2021-12-18
+#323,2021-12-24,slight fever,jeonbuk,,,2021-12-25,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#324,2021-12-25,"sore throat, cough",jeonbuk,,,2021-12-26,contact with #181,local,,Social,iksan related,J_kindergarten,40s,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#325,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-26,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#326,2021-12-25,cough,jeonbuk,,,2021-12-26,contact with #181,local,,Social,iksan related,J_kindergarten,50s,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#327,2021-12-21,high fever,jeonbuk,,,2021-12-23,#202(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#328,2021-12-21,high fever,jeonbuk,,,2021-12-23,#202(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#329,2021-12-21,high fever,jeonbuk,,,2021-12-23,#202(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#330,2021-12-23,"sore throat, bodyache",jeonbuk,,,2021-12-23,contact with #170,local,,Social,iksan related,I_kindergarten,60s,Unknown,2,Unknown,#170,2021-12-18,2021-12-18
+#331,2021-12-19,sore throat,jeonbuk,,,2021-12-23,contact with #168,local,,Social,iksan related,I_kindergarten,20s,Unknown,2,Unknown,#168,2021-12-18,2021-12-18
+#332,2021-12-20,cough,jeonbuk,,,2021-12-23,contact with #170,local,,Social,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#170,2021-12-18,2021-12-18
+#333,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-24,#188(family),local,,Household,iksan related,,30s,Unknown,2,Unknown,#188,2021-12-18,2021-12-19
+#334,2021-12-24,"headache, sore throat",jeonbuk,,,2021-12-24,#175(family),local,,Household,iksan related,,60s,Unknown,2,Unknown,#175,,2021-12-18
+#335,2021-12-22,cough,jeonbuk,,,2021-12-24,#177(family),local,,Household,iksan related,,60s,Unknown,2,Unknown,#177,2021-12-16,2021-12-18
+#336,2021-12-23,"headache, cough, sputum",jeonbuk,,,2021-12-24,#165(family),local,,Household,iksan related,,30s,Unknown,2,Unknown,#165,2021-12-17,2021-12-18
+#337,2021-12-23,sputum,jeonbuk,,,2021-12-25,#171(family),local,,Household,iksan related,I_kindergarten,40s,Unknown,Unknown,,#171,2021-12-15,2021-12-18
+#338,2021-12-24,nose block,jeonbuk,,,2021-12-25,contact with #175,local,,Social,iksan related,I_kindergarten,under 10,Unknown,0,,#175,,2021-12-18
+#339,,,gwangju,,,2021-12-25,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#340,,,gwangju,,,2021-12-26,contact with #147,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#147,,2021-12-19
+#341,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#342,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#343,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#344,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#345,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#346,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#347,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#348,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#349,,,gwangju,,,2021-12-26,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#350,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#351,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#352,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#353,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#354,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#355,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#356,2021-12-26,myalgia,jeonbuk,,,2021-12-26,#188(family),local,,Household,iksan related,,40s,Unknown,2,Unknown,#188,2021-12-18,2021-12-19
+#357,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-23,#202(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#202,2021-12-15,2021-12-20
+#358,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#359,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#360,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#361,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#362,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#363,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#364,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#365,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#366,,,gwangju,,,2021-12-27,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#367,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#368,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-26,#188(family),local,,Household,iksan related,,under 10,Unknown,0,,#188,2021-12-18,2021-12-19
+#369,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-26,#188(family),local,,Household,iksan related,I_kindergarten,30s,Unknown,2,Unknown,#188,2021-12-18,2021-12-19
+#370,2021-12-26,"Fever, myalgia",jeonbuk,,,2021-12-27,contact with #236,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#236,,2021-12-20
+#371,2021-12-25,"cough, sputum",jeonbuk,,,2021-12-28,related to Iksan kindergarten,local,,Social,iksan related,,40s,Unknown,0,,,,
+#372,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-25,#280(family),local,,Household,iksan related,B_kindergarten,10s,Unknown,Unknown,,#280,,2021-12-20
+#373,2021-12-28,"cough, sputum",jeonbuk,,,2021-12-29,contact with #181,local,,Social,iksan related,J_kindergarten,under 10,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#374,2021-12-28,,jeonbuk,,,2021-12-30,contact with #181,local,,Social,iksan related,J_kindergarten,Unknown,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#375,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#376,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#377,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#378,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#379,,,gwangju,,,2021-12-28,contact with #138,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#138,,2021-12-18
+#380,,,gwangju,,,2021-12-28,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#381,,,gwangju,,,2021-12-28,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#382,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#383,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#384,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#385,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#386,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#387,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#388,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#389,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#390,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#391,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#392,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#393,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#394,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#395,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#396,2021-12-25,"Fever, rhinorrhea",jeonbuk,,,2021-12-26,#280(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#280,,2021-12-20
+#397,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#398,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#399,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#400,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#401,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#402,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#403,,,gwangju,,,2021-12-29,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#404,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#405,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#406,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#407,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#408,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#409,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#410,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#411,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#412,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#413,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#414,,,gwangju,,,2021-12-30,contact with #120,local,,Social,#64 related,Honam area,Unknown,Unknown,Unknown,,#120,,2021-12-13
+#415,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-28,contact with #157,local,,Social,iksan related,,10s,Unknown,0,,#157,,2021-12-17
+#416,2021-12-20,bodyache,jeonbuk,,,2021-12-28,contact with #181,local,,Social,iksan related,,30s,Unknown,0,,#181,2021-12-16,2021-12-19
+#417,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-27,#280(family),local,,Household,iksan related,B_kindergarten,30s,Unknown,Unknown,,#280,,2021-12-20
+#418,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-30,contact with #181,local,,Social,iksan related,J_kindergarten,Unknown,Unknown,Unknown,,#181,2021-12-16,2021-12-19
+#419,2021-12-26,"Fever, sore throat, headache, myalgia",jeonbuk,,,2021-12-28,#208(family),local,,Household,iksan related,B_kindergarten,20s,Unknown,Unknown,,#208,2021-12-18,2021-12-20
+#420,2021-12-26,"cough, rhinorrhea",jeonbuk,,,2021-12-28,#208(family),local,,Household,iksan related,B_kindergarten,under 10,Unknown,Unknown,,#208,2021-12-18,2021-12-20
+#421,2021-12-26,cough,jeonbuk,,,2021-12-28,contact with #162,local,,Social,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#162,2021-12-16,2021-12-18
+#422,2021-12-22,cough,jeonbuk,,,2021-12-29,contact with #171,local,,Social,iksan related,I_kindergarten,10s,Unknown,2,Unknown,#171,2021-12-15,2021-12-18
+#423,2021-12-28,"sore throat, sputum, chill",jeonbuk,,,2021-12-29,#240(family),local,,Household,iksan related,I_kindergarten,40s,Unknown,2,Unknown,#240,2021-12-19,2021-12-20
+#424,2021-12-26,myalgia,jeonbuk,,,2021-12-29,contact with #204,local,,Social,iksan related,,20s,Unknown,Unknown,,#204,,2021-12-20
+#425,Asymptomatic,Asymptomatic,jeonbuk,,,2021-12-29,contact with #205,local,,Social,iksan related,,20s,Unknown,Unknown,,#205,2021-12-15,2021-12-20
+#426,,,incheon,,,2021-12-22,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
+#427,,,incheon,,,2021-12-26,Confirmed family (related to Incheon Church),local,,Household,Church related,,Unknown,Unknown,Unknown,,,,
